@@ -243,6 +243,7 @@ Browser renders the page 🎉
 
 ### 4️⃣ How does ECS connect to RDS?
 
+"ECS connects to RDS using the RDS endpoint over the private AWS network inside the same VPC. The RDS Security Group allows database traffic (3306/5432) only from the ECS Security Group. The application running in ECS sends SQL queries to RDS and receives data, while the database remains inaccessible from the internet."
 ```
 Internet
    ↓
