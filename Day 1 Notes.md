@@ -143,7 +143,7 @@ Internet Gateway
 
 ### Security Group
 
-Acts as a **firewall at the resource level**.
+Acts as a **firewall at the resource/instance level**.
 
 | Feature | Detail |
 |---|---|
@@ -182,7 +182,7 @@ Deny specific IP range
 
 | Feature | Security Group | NACL |
 |---|---|---|
-| Level | Resource Level | Subnet Level |
+| Level | Instance Level | Subnet Level |
 | State | Stateful | Stateless |
 | Rules | Allow only | Allow & Deny |
 | Management | Easier | More granular |
