@@ -269,7 +269,7 @@ Allow port 3306 from ECS SG
 > ⚠️ **Key Points:**
 > - RDS should **never** be publicly accessible
 > - ECS talks to RDS using the **private endpoint** inside the VPC
-> - All communication happens over **private IPs**, not the internet
+> - All communication happens over **private IPs**, not the internet.
 
 <img width="1536" height="1024" alt="aws architeture" src="https://github.com/user-attachments/assets/013118a6-7e63-4876-900a-1af1bb840f69" />
 
